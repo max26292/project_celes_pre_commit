@@ -1,0 +1,180 @@
+/*navbar
+-------------------------------------------------------------*/
+.navbar-inverse.ischanged{
+  width:auto;
+  position: relative;
+  /*background-color: #b3ff66;*/
+  background-color:  #111;
+ /* border-bottom: 3px #080808 solid;*/
+}
+.navbar.fixed{
+  margin-bottom: 0px;
+  min-height: 40px;
+}
+.menu_icon{
+  float: left;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: white;
+}
+.icon:hover{
+
+  -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+  filter: blur(1px);
+}
+
+.logo_img:hover {
+    -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
+    filter: blur(2px);
+}
+.menu_info{
+  float: left;
+  padding-left: 10px;
+  color: white;
+  max-height:  50px;
+}
+.cart_icon{
+  float: right;
+  padding-right: 10px;
+  padding-top: 5px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  white-space: nowrap;
+  color: white;
+}
+.cart_icon p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  align-items: center;
+  flex: auto;
+  width: 40px;
+  height: 50px;
+  float: left;
+  line-height: 50px;
+  white-space: nowrap;
+}
+.cart_icon a {
+  color:white;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border: none;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+.logo img{
+   width: 50px;
+  height: 50px;
+}
+/*meubar
+-------------------------------------------------------------------*/
+.menu_bar{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+ /* border: none;*/
+}
+.menu_bar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu_content{
+  padding-top: 10em;
+}
+.menu_content a:hover{
+   background-color: #3b5998;
+}
+/*LOGIN form
+---------------------------------------------------------------------*/
+.login_form{
+  display: none;
+}
+
+/*main_body
+------------------------------------------*/
+.main_body{
+  /*width: 1100;*/
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.row_space{
+  height: 20px;
+}
+.sub_body{
+  background-color:  rgba(1, 1, 19, 0.63);
+  color: black;
+  width: 100%;
+  height: 718px;
+  margin-top: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+    /*background-color: black;*/
+  /*margin-top: 100px;*/
+  display: none;
+
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+
+/*image hover
+------------------------------------------------------*/
+.product_img {
+    max-width: 350px;
+    max-height: 400px;
+    min-width: 300px;
+    min-height: 350px;
+    /*border-radius: 10px;*/
+    filter: alpha(opacity=50); /* For IE8 and earlier*/
+}
+.error-message {
+  text-align: center;
+  font-style: italic;
+  color: red;
+
+}
+.error-message-box {
+  /*text-align: center;*/
+  font-style: italic;
+  color: red;
+
+}
+.user_info{
+  width: 200px;
+  margin: 20px;
+}
+.user_info  h5{
+  color: white;
+}
+/*.product_img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=100); /* For IE8 and earlier
+}*/
+/*regis form------------------------
+----------------------------------.*/

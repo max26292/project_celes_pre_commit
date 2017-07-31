@@ -1,0 +1,40 @@
+/*media queries
+	-----------------------------------------------------------------
+*/
+@viewport{width:device-width;}
+@-moz-viewport{width:device-width;}
+@-webkit-viewport{width:device-width;}
+@-ms-viewport{width:device-width;}
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:978px){
+	.hoc{
+		max-width:978px;
+	}
+}
+/* Smartphone + Tablet
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:900px) {
+	.hoc {
+		max-width: 90%;
+	}
+}
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.80);
+}
+.pull-right.isModifined {
+    margin-top: 10px;
+}
+.nav-bar.margintop{
+    margin-top: auto;
+}
+
+.row.underline{
+    border-bottom: 1px solid white;
+}
+.padding{
+   padding-top:150px;
+
+
+}
